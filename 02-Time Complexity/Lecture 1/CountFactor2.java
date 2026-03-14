@@ -1,3 +1,5 @@
+// 50 iterations , num/2 iteratios
+
 class Factors{
     int countFactor(int num){
         int count= 0;
