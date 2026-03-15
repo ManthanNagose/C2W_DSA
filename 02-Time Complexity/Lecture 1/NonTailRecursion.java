@@ -3,7 +3,7 @@ public class NonTailRecursion {
     static void PrintNum (int Num){
         if(Num == 0)
             return;
-        PrintNum(--Num);
+        PrintNum(Num-1);
         System.out.println(Num);
     }
 
